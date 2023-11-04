@@ -3,13 +3,13 @@
   background-color: darkgrey;
 }
 .n-flag{
-  margin: 10px;
+  margin: 1vw;
 padding: auto;
-  font-size: 66px;
+  font-size: 5vw;
   font-weight: bold;
   display: flex;
   justify-content: center;
-  text-decoration: 2px underline #06038D;
+  text-decoration: 0.2vw underline #06038D;
   font-style:var(135deg);
 }
 .n-flag a{
@@ -22,7 +22,7 @@ padding: auto;
   color: #046A38;
 }
 .flag{
-  height: 600px;
+  height: 45vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,58 +30,58 @@ padding: auto;
 }
 .green{
   background-color: #046A38;
-height:200px;
-width: 70%;
+height:15vw;
+width: 80vw;
 }
 
 .white{
-  height:200px;
+  height:15vw;
 background-color:#FFFFFF;
-width: 70%;
+width: 80vw;
 align-items: center;
 justify-content: center;
 display: flex;
 }
 .orange{
-  height:200px;
-  width: 70%;
+  height:15vw;
+  width: 80vw;
 background-color:#FF671F;
 }
 .ashokachakra{
   
-  height: 180px;
-  width: 180px;
+  height: 14vw;
+  width: 14vw;
   border-radius: 50%;
-  border: 5px solid #06038D;
+  border: 0.3vw solid #06038D;
   background-color: #FFFFFF;
   align-items: center;
   justify-content: center;
   display: flex;
-	animation-name: wheel;
-	animation-iteration-count: infinite;
-	animation-duration: 5s;
-	animation-timing-function: linear;
+  animation-name: wheel;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 
 }
 
 @keyframes wheel {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .line{
   height: 100%;
-  width: 5px;
+  width: 0.4vw;
   background-color: #06038D;
   rotate: 0deg;
 }
 span{
   height: 100%;
-  width: 5pxpx;
+  width: 0.4vw;
   display: inline-block;
   position: absolute;
   background-color: #06038D;
