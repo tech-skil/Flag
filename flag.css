@@ -1,6 +1,12 @@
 *{
   margin: 0%;
-  background-color: darkgrey;
+
+ }
+body{
+background: rgb(241,91,37);
+background: linear-gradient(180deg, rgba(241,91,37,0.302818490677521) 23%, rgba(245,242,241,0.302818490677521) 34%, rgba(255,255,255,0.302818490677521) 62%, rgba(0,105,52,0.302818490677521) 75%, rgba(0,105,52,0.7) 100%, rgba(0,105,52,0.3000173702293417) 100%);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .n-flag{
   margin: 1vw;
